@@ -12,7 +12,8 @@ const PriceComparison = () => {
         'Panel administrativo',
         'Hosting por 1 año'
       ],
-      image: 'https://4tsix0yujj.ufs.sh/f/2vMRHqOYUHc09q16p3T8xb3WM2EovYqBk0PZh6iezOHjnwfQ'
+     image: '/images/web_vapo.png'
+
     },
     {
       type: 'App Móvil',
@@ -36,7 +37,7 @@ const PriceComparison = () => {
         'API de predicción',
         'Soporte técnico prioritario'
       ],
-      image: 'https://images.unsplash.com/photo-1677442135136-760c813a743d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80'
+      image: 'https://images.unsplash.com/photo-1603791440384-56cd371ee9a7?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80'
     }
   ];
 

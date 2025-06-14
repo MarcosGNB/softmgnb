@@ -23,14 +23,37 @@ import ContactInfo from './components/ContactInfo';
 import LocationMap from './components/LocationMap';
 import SifenIntegration from './components/SifenIntegration';
 import './styles.css';
+import ObjectivesSection from './components/ObjectivesSection';
+import RevenueSources from './components/RevenueSources';
+import AnalisisFODA from './components/AnalisisFODA';
+import PlanNegocios from './components/PlanNegocios';
+import MarketingYVentas from './components/MarketingYVentas';
+import FormalizacionLegal from './components/FormalizacionLegal';
+import EstudioDeMercado from './components/EstudioDeMercado';
+import EquipoTrabajo from './components/EquipoTrabajo';
+import PlanFinanciero from './components/PlanFinanciero';
+import PlanLanzamiento from './components/PlanLanzamiento';
+import EstrategiaEscalabilidad from './components/EstrategiaEscalabilidad';
 const App = () => {
   return (
     <div className="min-h-screen bg-white dark:bg-gray-900 transition-colors duration-300">
       <ThemeToggle />
       <HeroSection />
       <MissionVision />
+        
         <ValuesSection />
-      
+      <ObjectivesSection />
+      <RevenueSources />
+      <EstudioDeMercado />
+      <AnalisisFODA />
+    <PlanNegocios />
+    <MarketingYVentas />
+    <FormalizacionLegal />
+    <EquipoTrabajo />
+    <PlanFinanciero />
+    <PlanLanzamiento />
+    <EstrategiaEscalabilidad />
+  
       <PriceComparison />
       
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
